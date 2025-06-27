@@ -1,0 +1,22 @@
+'''
+Operation on strings
+'''
+#####################
+#New line
+print("Hi my self is Arya\nI am 22 yrs old")
+#concatenation
+# "shashank" + "arya" --- shashankarya with out a space
+print("shashank"+" "+"Arya") #-- shashank Arya space matters in python
+#Intendation matter in python
+
+#######################
+#To enter new data
+print("What is your name")
+name = input() #opens a provision to cursor o enter the response data
+print(f"Hence forth your identity is considered as: {name}")
+print("you are " + input("What is your age: ") + "!") # Here before printing the statement is takes the input mentioned!
+print("The lenght of the name is:",len(name))
+
+#Variables
+#The data type whose allocated value can be used for future/further purposes!
+#Reusing an entity in the code

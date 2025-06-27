@@ -1,0 +1,53 @@
+if conditionals
+=============================================================================================
+if condition:
+ DO THIS
+else:
+ DO THIS
+
+print("Welcome to the roller cosater ride")
+height = int(input("what is your height: "))
+
+if height > 120:
+    print("You can ride")
+else:
+    print("You cannot ride")
+
+>= 10 - Greater than or equal to 10
+<= 10 - Less than or equal to 10
+== - Equalising
+= - Assigning an entity
+> - Greater than
+< -Less than
+!= - Not equal
+==============================================================================================
+MODULO - %
+===============================================================================================
+10 % 5 ---Gives u the reminder : 2
+
+num = int(input("Enter a number to check it is even or odd: "))
+if num%2 == 0:
+    print("EVEN")
+else:
+    print("ODD")
+
+================================================================================================
+Nested - if/else
+================================================================================================
+if condition:
+    if condition:
+        do this
+    else:
+        do this
+else:
+    fo this
+
+
+age = int(input("Enter you age to decide a condition: "))
+if age < 12:
+    print("You need to pay $5")
+elif 12<age<18:
+    print("You need to pay $7")
+else:
+pay > 18:
+    pint("You need to pay: $12")
