@@ -49,5 +49,53 @@ if age < 12:
 elif 12<age<18:
     print("You need to pay $7")
 else:
-pay > 18:
     pint("You need to pay: $12")
+
+=================================================================================================
+Special condition - to check entire loop even after passing the first condition
+=================================================================================================
+if condition:
+    do this
+if condition:
+    do this
+if condition:
+    do this
+
+This senario comes into the frame it the user is eligible for multiple offers or benifits
+
+print("Welcome to the roller cosater ride")
+height = int(input("what is your height: "))
+
+if height > 120:
+    print("You can ride")
+    age = int(input("Enter you age to decide a condition: "))
+    if age < 12:
+        bill = 5
+        print("You need to pay $5")
+    elif 12<=age<18:
+        bill = 7
+        print("You need to pay $7")
+    elif age>= 45 and age <= 55:
+        print("You can have a free ride on us")
+    else:
+        bill = 12
+        pint("You need to pay: $12")
+    want_photo = input("want to have a photo? Type y for yes n for no")
+    if want_photo:
+        print("You need to pay $3")
+        bill += 3
+    print("The final bill is:",bill)
+else:
+    print("You cannot ride")
+
+====================================================================================================
+Logical operators
+====================================================================================================
+AND/OR/NOT
+
+if condition_1 and condition_2 - Both the conditions need to be satisfied   (a * b)
+if condition_1 or condition_2  - Either of the condition need to be satisfied (a + b)
+if not condition_1 - Then condition_1 is not being satisfied (not a)
+
+
+
