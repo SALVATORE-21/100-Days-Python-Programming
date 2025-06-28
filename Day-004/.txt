@@ -1,0 +1,37 @@
+Randomisation
+===================================================================================
+An occurance of a random event out of all the possible chances. - Possiblitiy
+
+import random - Module from python
+
+random.randint(a,b) - Used to generate a random integer of certain range as mentioned [inclusive of a to b]
+random.random() - Generates the next random number from 0.0 to 1 0.0 <= x < 1
+random.random() * 10 - Generates a float from 0 to 10 as in general the range is 1 to 0 so multiplying by 10 makes it to 0 to 10.
+random.uniform(a,b) - returns a float in the range a to b also including them.
+=====================================================================================
+Heads or tails
+=====================================================================================
+Heads_or_tail = random.randint(0,1)
+if Heads_or_tail == 0:
+    print("Heads)
+else:
+    print("Tails")
+=====================================================================================
+Lists - Way of storing and organizing the data. == DataStructure
+=====================================================================================
+1. It can have any datatypes in a List
+2. Syntax is must to consider ["a",1,2.0,True]
+3. Indexing in a list starts from 0.
+4. Lists also posess negative Indexing
+a = [1,2,3,4,45]
+a[-1] = 45
+5. Items in the lists can be modified.
+6. An item to the list using function append.
+
+list.append(x) - Add item at the end of the list
+list.extend([]) - Append a list of items
+list.insert(i,x) - Add item x at ith position
+list.remove(x) - remove item x from the list
+list.pop([0]) - remove item from position 0
+list.clear() - clean the list
+random.choice(list) - Pick any item from the list
