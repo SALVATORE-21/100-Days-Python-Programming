@@ -8,6 +8,7 @@ random.randint(a,b) - Used to generate a random integer of certain range as ment
 random.random() - Generates the next random number from 0.0 to 1 0.0 <= x < 1
 random.random() * 10 - Generates a float from 0 to 10 as in general the range is 1 to 0 so multiplying by 10 makes it to 0 to 10.
 random.uniform(a,b) - returns a float in the range a to b also including them.
+random.choices(list,k) - Using this we choose k items in random from the list.
 =====================================================================================
 Heads or tails
 =====================================================================================

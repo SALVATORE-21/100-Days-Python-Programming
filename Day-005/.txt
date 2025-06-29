@@ -1,0 +1,34 @@
+Reason for getting powned!!?
+- Using a same password on multiple platforms
+- We need a new password! to make our online connection strong
+
+LOOP
+===================================================================================
+For LOOP - Used for accessing each item in a created list of item
+
+fruits = ["Apple","Orange","Grapes"]
+for i in fruits:
+    print(i)
+
+prints out list of fruits in the console
+
+-- Finding the max number in a List
+max() - Returns the max values out of the list considered
+The same implementation using for loop
+student_score = []
+max_score = 0
+for i in student_score:
+    if i>max_score:
+        max_score = i
+print("MAX_SCORE",max_score)
+
+-- Summing 1 to 100
+range function :- Useful for providing values of certain specified range
+range(a,b) - Starting from a to b-1
+range(a,b,c) - c signifies a step size
+               range(0,11,2) - 0,2,4,6,8,10
+SUM = 0
+for i in range(1,101):
+    SUM += 1
+print("The sum of 100 number is: ",SUM)
+
