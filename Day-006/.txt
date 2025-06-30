@@ -1,0 +1,50 @@
+Functions - A name followed by a paranthesis [And the content inside will get outputted]
+=================================================================================================
+print()
+len()
+
+Making our own Function -
+def my_function():
+    print("Hello")
+    print("Bye")
+
+def my_function():
+    #Do this
+    #Then do this
+    #Finally do this
+
+After defining a function we need to call the function to execute it
+my_function()
+
+https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Alone&url=worlds%2Ftutorial_en%2Falone.json - Best platform to practice functions as a beginner
+
+=================================================================================================
+Indentation - Professional spacing to understand the code or pattern of writing it
+=================================================================================================
+def my_function():
+    print("Hi")  - The space before the line is called as Indentatio
+
+if sky == "BLUE":
+    print("Good to go out")
+elif sky == "DARK":
+    print("May be rainy")
+
+Here the spaces before the conditions make them categorize to get executed.
+4 spaces to gether is a tab space - intendation
+==================================================================================================
+While LOOP
+==================================================================================================
+while something_is_true:
+    #Do something repeatedly
+
+a = 6
+while a>0 :
+    print("HELLO WORLD")
+    a -= 1
+    print(a)
+
+----------
+The comparision between for and while loop is when u wann track every number we need a for where to skip the step to step excution
+but to run until the condition is met while can be used
+----------
+
