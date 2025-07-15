@@ -1,0 +1,28 @@
+This day deals with ceaser cipher game to encrypt the messages by n shifts.
+
+--------------------------------------------------------------------------------------
+Function with argument to greet a person dynamically
+
+def greet(name):
+    print(f"Hello, {name}")
+    print("How do u do?")
+    print("How's the weather")
+
+greet("Arya") - At the point of calling the function the editor automatically hilights the needed argument for the parameter.
+
+----------------------------------------------------------------------------------------
+Functions with more than 1 input
+----------------------------------------------------------------------------------------
+def greet(name,location):
+    print(f"Myself is {name}")
+    print(f"I am from {location}")
+
+greet("Arya","VJA")
+
+!!!Order of the argument is to be taken care of else it will effect the output of the function.
+Positioning is mandatory while providing the arguments - Positional argument
+
+else the way of defining them can be taken care by considering the parameters on defining them.
+greet(location="VJA",name="Arya) - Still works -
+
+
