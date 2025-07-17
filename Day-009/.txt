@@ -1,0 +1,75 @@
+Dictionaries
+------------------------------------------------
+
+The method of storing the data in a certain format of key:value pair.
+These are similar to normal word dictionaries where a tag carries an explaination.
+
+Structure of  dictionaries :
+example =
+{
+    "Roll_no_1":"Vidya",
+    "Roll_no_2":"Sammy,
+    "Roll_no_3":"Groovy"
+
+}
+
+How do we aceess them?
+example["Roll_no_1"]- Theyare accessed via their key name.
+
+- Key error occurs if there is not key being defined in the list and user tries to access it.
+
+To add a new data point into the dictionaries
+
+- example["Roll_no_4"] = "Lekha"
+
+Empty dictionary = {} - Similar to empty list.
+
+- Wipe an exsisting dictionary
+del example
+
+- Edit the exsisting dictionary
+example["Roll_no_1"] = "Samant" - Juss re-writing an exsisting value for a key in the dict.
+
+- Loop through a dict
+
+for i in example:
+    print(i)
+
+"""
+"Roll_no_1"
+"Roll_no_2"
+"Roll_no_3"
+"""
+
+----------------NESTING----------------------------------
+{
+    key : [Values],
+    key_2 : {Dict}
+}
+
+-- A single key has multiple values.
+
+travel_Log = {
+    "France":["Paris","Lille","Dijion"]
+}
+-- Acess Lille
+print(travel_Log["France"][1])
+
+nested_list = [1,2,[3,4]]
+-- Access 4
+print(nested_list[2][1]) -- Element 2 in the list at index 2.
+
+
+travel_Log = {
+    "France":{
+        "cities_visited":["Paris","Lille","Dijion"],
+        "total_visits":12
+    },
+    "Germany":{
+        "cities_visited":["Paris","Lille","Dijion"],
+        "total_visits":10
+    }
+}
+
+-- Access total_visits
+print(travel_Log["Germany"]["cities_visited"][0]) - Paris

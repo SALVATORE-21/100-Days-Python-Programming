@@ -15,7 +15,7 @@ def encrypt(original_text, shift_amount):
     for char in original_text.lower():
         if char in alphabets:
             index = alphabets.index(char)
-            shifted_index = (index + shift_amount) % 26
+            shifted_index = (index + shift_amount) % 26 #Modulous 26 rounds the index around the limit 26.
             result += alphabets[shifted_index]
         else:
             result += char
