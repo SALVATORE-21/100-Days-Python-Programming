@@ -1,0 +1,58 @@
+---------------- function with return ----------
+
+def add():
+    return 2 + 3
+
+when called this function
+add() - This returns the value 5 always.
+
+- Functions are machines where inputs are provided and generated ouput is something else.
+
+---------------------------------------------------------------------------------------------------
+
+1. When ever this function is called is always need's 2 params [f_name,l_name]
+
+def format_name(f_name,l_name):
+    f_name = f_name.title() - Gets converted into title case
+    l_name = l_name.title()
+    return f"{f_name} {l_name}"
+
+method of calling the above function
+format_name("Ander","sens")
+-- output : Ander Sens
+
+----------------------
+example - hello world
+tile-case : Hello World
+-----------------------
+
+
+senario!!!!!!!!!
+
+def function_1(text):
+    return text + text
+
+functon_1("App")
+-- Output AppApp
+
+def function_2(text):
+    return text.title()
+
+
+output = function_2(function_1("above"))
+print(output) -- Aboveabove
+Here the output of a function becomes the input of another function.
+----------------------------------------------------------------------------------------------------
+
+Doc strings - Used for documentation of the coding file.
+
+"""
+Class used for defining model
+
+"""
+
+These quotations marks provide a provision for documenting the data.
+
+
+
+

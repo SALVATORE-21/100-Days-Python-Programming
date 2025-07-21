@@ -28,5 +28,5 @@ for i in bid_account:
         max = bid_account[i]
         final_winner = i
 
-print(f"{final_winner}-{max}")
-
+print("---------------------The winner and the bid amount are as follows---------------")
+print(f"Name:{final_winner},Bid_amount:{max}")
