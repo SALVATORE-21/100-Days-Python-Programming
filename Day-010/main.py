@@ -53,13 +53,31 @@ operations = {
     "/":divide
 }
 
-a = int(input("What is the first number: "))
-print("-" * 20)
+def calculator():
+    should_accumilate = True
+    a = int(input("What is the first number: "))
+    print("-" * 20)
 
-print("Choose among the 5 available operations")
-print(" '+' '*' '-' '/' '**' ")
-b = str(input("The choosen operation....: "))
+    while should_accumilate:
+        print("Choose among the 5 available operations")
+        print(" '+' '*' '-' '/' '**' ")
+        b = str(input("The choosen operation....: "))
 
-c = int(input("What is the second number: "))
+        c = int(input("What is the second number: "))
+        print("The final result is: ",(operations[b](n1=a,n2=c)))
+        result = operations[b](n1=a,n2=c)
 
-print("The final result is: ",(operations[b](n1=a,n2=c)))
+        choice = input(f"Type 'y' to continue calculating with the result `{result}` or type 'n' to exit: ").lower()
+
+        if choice == "y":
+            a = result
+        else:
+            should_accumilate = False
+            print("xxxxxxxxxxxxxxxxxxxENDXXXXXXXXXXXXXXXXXXXXXX")
+
+
+######################################################################
+# - Calling the calculator
+calculator()
+
+

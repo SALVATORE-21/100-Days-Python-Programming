@@ -1,0 +1,17 @@
+-----------------FIRST CAPSTONE PROJECT------------------------
+
+---
+BUILDING BLACK JACK
+
+Rules involved in are:
+Goal of the game -- ```Add the largest numbered card without getting over 21```
+
+-- if cards in hand sum up > 21 then we call it as bust
+-- Cards numbered from 1 to 9 are counted as it is.
+-- But king/queen/Jack are counted as 10
+-- Ace is considered as 1 or 11 based on value present
+   -- if you feel sum becomes > 21 a person can consider ace as 1 else as 11
+-- When scores are equal its a draw
+-- if score is < 17 a person needs to take a card for sure.
+
+
