@@ -91,12 +91,21 @@ Each folder typically contains:
 
 ## 📌 Progress Log
 
-| Day | Topic / Project     | Status        |
-| --- | ------------------- | ------------- |
-| 1   | Band Name Generator | ✅ Done        |
-| 2   | Tip Calculator      | ✅ Done        |
-| ... | ...                 | ...           |
-| 100 | Capstone Project    | ⏳ In Progress |
+| Day | Topic / Project               | Status        |
+| --- | ----------------------------- | ------------- |
+| 1   | Band Name Generator           | ✅ Done        |
+| 2   | Tip Calculator                | ✅ Done        |
+| 3   | Treasure Map Game             | ✅ Done        |
+| 4   | Rock Paper Scissors          | ✅ Done        |
+| 5   | Password Generator            | ✅ Done        |
+| 6   | Escape the Maze              | ✅ Done        |
+| 7   | Hangman                      | ✅ Done        |
+| 8   | Caesar Cipher                | ✅ Done        |
+| 9   | Silent Auction               | ✅ Done        |
+| 10  | Calculator                   | ✅ Done        |
+| 11  | Blackjack                    | ✅ Done        |
+| 12  | Guess the Number             | ✅ Done        |
+| 100 | Capstone Project             | ⏳ In Progress |
 
 ---
 
