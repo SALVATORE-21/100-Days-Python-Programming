@@ -46,4 +46,4 @@ When ordering a drink, enter the number of quarters, dimes, nickels, and pennies
 - Python 3.x
 
 ![Sample working flow](image-1.png)
-![Report]](image-2.png)
+![Report](image-2.png)
