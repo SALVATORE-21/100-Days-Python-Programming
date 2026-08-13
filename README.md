@@ -106,6 +106,8 @@ Each folder typically contains:
 | 11  | Blackjack                     | ✅ Done        |
 | 12  | Guess the Number              | ✅ Done        |
 | 13  | Debugging of code             | ✅ Done        |
+| 14  | Higher or Lower Game          | ✅ Done        |
+| 15  | Coffee Machine                | ✅ Done        |
 | 100 | Capstone Project              | ⏳ In Progress |
 
 ---

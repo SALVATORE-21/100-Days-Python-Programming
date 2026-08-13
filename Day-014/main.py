@@ -1,5 +1,5 @@
 """
-This is a python based game called Higer and lower. 
+This is a python based game called Higer and lower.
 In this game, the user has to guess the number which is higher or lower than the given number.
 
 """
@@ -7,14 +7,14 @@ In this game, the user has to guess the number which is higher or lower than the
 
 # Display Art
 from game_data import game_data
-print(r"""__  ___       __             
+print(r"""__  ___       __
    / / / (_)___ _/ /_  ___  _____
   / /_/ / / __ '/ __ \/ _ \/ ___/
- / __  / / /_/ / / / /  __/ /    
-/_/ ///_/\__, /_/ /_/\___/_/     
+ / __  / / /_/ / / / /  __/ /
+/_/ ///_/\__, /_/ /_/\___/_/
    / /  /____/_      _____  _____
   / /   / __ \ | /| / / _ \/ ___/
- / /___/ /_/ / |/ |/ /  __/ /    
+ / /___/ /_/ / |/ |/ /  __/ /
 /_____/\____/|__/|__/\___/_/""")
 
 # Generate a random account from the game data
@@ -28,6 +28,7 @@ def format_data(account):
     account_description = account['description']
     account_country = account['country']
     return f"{account_name}, a {account_description}, from {account_country}."
+
 
 def check_answer(guess, a_followers, b_followers):
     """Takes the user guess and follower counts and returns if they got it right."""
@@ -45,10 +46,10 @@ while game_is_on:
     while account_a == account_b:
         account_b = random.choice(game_data)
     print(f"Compare A: {format_data(account_a)}")
-    print(r""" _    __    
+    print(r""" _    __
     | |  / /____
     | | / / ___/
-    | |/ (__  ) 
+    | |/ (__  )
     |___/____(_)""")
     print(f"Against B: {format_data(account_b)}")
     #Ask the user for a guess and check if they got it right.

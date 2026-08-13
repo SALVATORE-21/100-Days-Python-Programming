@@ -49,4 +49,3 @@ def divide_numbers():
 # 4. Testing with valid and invalid inputs helps confirm the fix.
 
 divide_numbers()
-
